@@ -1,0 +1,32 @@
+module spining_counter(
+    input wire clk,
+    input wire rst_n,
+    input wire soft_rst,
+    input wire start_spining,
+    input wire [1:0] clk_freq,
+    input wire spining_counter_stop,
+    output wire spining_done
+);
+reg [31:0] stop_count;
+localparam [31:0] temp = 2'b11;
+always @ *
+begin
+    case(clk_freq)
+        2'b00: stop_count ='h3938700; 
+        2'b01: stop_count = 'h7270E00;
+        2'b10: stop_count = 'hE4E1C00;
+        2'b11: stop_count = 'h1C9C3800;
+    endcase
+end    
+reg [31:0] q;
+always @(posedge clk or negedge rst_n) 
+begin
+    if(~rst_n)
+        q <= 0;
+    else if (~soft_rst)
+        q <= 0;  
+    else if (start_spining && ~spining_counter_stop && ~spining_done)
+        q <= q + 1;        
+end
+assign spining_done = (q == temp);
+endmodule

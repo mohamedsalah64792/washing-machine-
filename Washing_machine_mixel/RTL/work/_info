@@ -1,0 +1,222 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/20111/Desktop/mixel
+vFilling_water_counter
+Z1 !s110 1657791965
+!i10b 1
+!s100 X_PMGWDPk?2j`N>BLSM9m2
+INF;B:moRDhBBSbKa9==l>3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657759288
+8C:/Users/20111/Desktop/mixel/Filling_water_counter.v
+FC:/Users/20111/Desktop/mixel/Filling_water_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1657791965.000000
+!s107 C:/Users/20111/Desktop/mixel/Filling_water_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/Filling_water_counter.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@filling_water_counter
+vfsm
+R1
+!i10b 1
+!s100 [L0NMo7XJAofPkInnm;gB3
+I?6<MN`RL]O?2IX;oaZ0Xc3
+R2
+R0
+w1657727550
+8C:/Users/20111/Desktop/mixel/fsm.v
+FC:/Users/20111/Desktop/mixel/fsm.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20111/Desktop/mixel/fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/fsm.v|
+!i113 1
+R5
+R6
+vmixel
+R1
+!i10b 1
+!s100 YEXh]T7oa]2I?2K<@3>7e1
+Ik1V=CSYAZl@@PeLO9^fDK2
+R2
+R0
+w1657738769
+8C:/Users/20111/Desktop/mixel/mixel.v
+FC:/Users/20111/Desktop/mixel/mixel.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20111/Desktop/mixel/mixel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/mixel.v|
+!i113 1
+R5
+R6
+vRinsing_counter
+R1
+!i10b 1
+!s100 TiTFl4=T`LJ1_CO7^=dB<1
+Im@zLH]4Y4klSn8RZW8YzU0
+R2
+R0
+w1657759273
+8C:/Users/20111/Desktop/mixel/Rinsing_counter.v
+FC:/Users/20111/Desktop/mixel/Rinsing_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20111/Desktop/mixel/Rinsing_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/Rinsing_counter.v|
+!i113 1
+R5
+R6
+n@rinsing_counter
+vspining_counter
+R1
+!i10b 1
+!s100 40<Pg?gdk5Lh=C04@3gBi2
+Iko^ZG?hbTKIfA5eaVMbCF0
+R2
+R0
+w1657759294
+8C:/Users/20111/Desktop/mixel/spining_counter.v
+FC:/Users/20111/Desktop/mixel/spining_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20111/Desktop/mixel/spining_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/spining_counter.v|
+!i113 1
+R5
+R6
+vstop_watch_cascade
+!s110 1657542038
+!i10b 1
+!s100 HPz:]8>iTD]_Sd84fJH6e2
+IQlJbM3c<7FO0jXf4J1k9=3
+R2
+R0
+w1657542033
+8C:\Users\20111\Desktop\mixel\tst.v
+FC:\Users\20111\Desktop\mixel\tst.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1657542038.000000
+!s107 C:\Users\20111\Desktop\mixel\tst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\20111\Desktop\mixel\tst.v|
+!i113 1
+R5
+R6
+vsum
+!s110 1657053639
+!i10b 1
+!s100 FGXQ8=H[KC5?>N:aBkBJd1
+I]BMmL<hWWo8cn6T7HMj_S0
+R2
+R0
+w1657053632
+Z7 8C:/Users/20111/Desktop/mixel/tst.v
+Z8 FC:/Users/20111/Desktop/mixel/tst.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1657053639.000000
+Z9 !s107 C:/Users/20111/Desktop/mixel/tst.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/tst.v|
+!i113 1
+R5
+R6
+vtst
+R1
+!i10b 1
+!s100 1DW^>g=i?J]aBnJTHLg1I2
+I6MfMcHNU=U>eS<CQZ=4f^2
+R2
+R0
+w1657542073
+R7
+R8
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R9
+R10
+!i113 1
+R5
+R6
+vtstbench
+R1
+!i10b 1
+!s100 N@10dNFYX1^4F1;3]bEgP2
+I9PR^kzWK_iM=i]6lA?W]X3
+R2
+R0
+w1657759412
+8C:/Users/20111/Desktop/mixel/tstbench.v
+FC:/Users/20111/Desktop/mixel/tstbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20111/Desktop/mixel/tstbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/tstbench.v|
+!i113 1
+R5
+R6
+vwashing_counter
+R1
+!i10b 1
+!s100 VPbn;3862<z;D2B[cLQn90
+I1mKJeUg<6LHGi]lI>5Vd;1
+R2
+R0
+w1657759279
+8C:/Users/20111/Desktop/mixel/washing_counter.v
+FC:/Users/20111/Desktop/mixel/washing_counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/20111/Desktop/mixel/washing_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/20111/Desktop/mixel/washing_counter.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,115 @@
+# ERROR: No extended dataflow license exists
+# vsim work.mixel 
+# Start time: 20:10:21 on Jul 12,2022
+# Loading work.mixel
+# Loading work.fsm
+# Loading work.Filling_water_counter
+# Loading work.washing_counter
+# Loading work.Rinsing_counter
+# Loading work.spining_counter
+# ** Warning: (vsim-3017) ./mixel.v(41): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /mixel/c2 File: ./washing_counter.v
+# ** Warning: (vsim-3722) ./mixel.v(41): [TFMPC] - Missing connection for port 'round2'.
+# ** Warning: (vsim-3017) ./mixel.v(48): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /mixel/c3 File: ./Rinsing_counter.v
+# ** Warning: (vsim-3722) ./mixel.v(48): [TFMPC] - Missing connection for port 'round2'.
+add wave sim:/mixel/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: 20111  Hostname: DESKTOP-DA1O5BB  ProcessID: 11300
+#           Attempting to use alternate WLF file "./wlft84grqe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft84grqe
+add wave sim:/mixel/*
+force -freeze sim:/mixel/clk 0 0, 1 {50 ps} -r 100
+force -freeze sim:/mixel/rst_n 1 0
+force -freeze sim:/mixel/rst_n 0 20
+force -freeze sim:/mixel/rst_n 1 70
+force -freeze sim:/mixel/coin_in 1 0
+force -freeze sim:/mixel/double_wash 1 0
+force -freeze sim:/mixel/timer_pause 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:49:21 on Jul 12,2022, Elapsed time: 2:39:00
+# Errors: 0, Warnings: 6
